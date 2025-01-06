@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-weight:400;
+}
+
+body {
+    background-image: url("asset/3-Background WP (1).png");
+    background-attachment: fixed;
+    background-size:cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: none;
+    gap:5vw
+}
+
+.logo{
+    width: 180px;
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight:500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo img{
+    width: 90px;
+    overflow:hidden;
+    display:block;
+    margin:auto;
+}
+
+.search-bar input {
+    width:45vw;
+    color: grey;
+    padding: 10px;
+    border-radius: 20px;
+    border: auto;
+}
+
+.search-bar button {
+    padding:50px,10px,10px, 10px;
+    height:35px;
+    width:35px;
+    background: white;
+    border-radius:100%;
+    border: 5;
+    cursor: pointer;
+}
+
+.search-bar img {
+    width: 20px;
+}
+
+.profile img{
+    width: 35px;
+    height: 35px;
+    display:flex;
+    border-radius: 50%;
+}
+.profile button {
+    background-color: #4c2aa6;
+    color: white;
+    border: none;
+    padding: 7px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline:auto;
+}
+
+
+/* Main Content */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100vw;
+    
+}
+
+.content-box h2{
+    background-color: #466E90;
+    padding:20px;
+    border-radius: 5px;
+    margin-top:2vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-box h3{
+    color: black;
+    min-height: 90%;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding:20px;
+    font-weight:bold;}
+
+
+.content-box h4{
+    margin-left: 20px;
+}
+
+.content-box li{
+    margin-left: 30px;
+}
+
+.content-box article{
+    color: black;
+    text-align: left;
+    margin: 20px;
+    
+}
+
+/* Footer Styles */
+.footer {
+    background-color: transparent;
+    margin-top: 20px;
+    height: 28vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    gap:5vw;
+    padding: 20px;
+    border-top: 3px solid white;
+}
+
+.footer-logo{
+    text-align: center;
+    width:max-content;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.footer h3{
+    font-style: 900;
+}
+
+.footer-socials {
+    display:flexbox;
+    text-align: center;
+    max-width:30vw;
+    overflow: hidden;
+}
+
+.footer-AboutUs{
+    place-items: center;
+}
+
+.footer-content {
+    max-width: 50%;
+}
+
+.footer-contact {
+    max-width: 50%;
+}
+
+.footer-contact ul {
+    list-style-type: none;
+}
+
+.footer-contact ul li {
+    margin-bottom: 10px;
+}
+
+.social-icons img, a{
+    margin-right: 2px;
+    color: white;
+    text-decoration: none;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
+
+.akhiran{
+    background-color: #2b176d;
+    height: 25px;
+    align-self: bottom;
+
+}
+
+.akhirans{
+    background-color: white;
+    height:2px;
+}
+
+.akhiran h4{
+    margin-top: 3px;
+    margin-left: 5vw;
+    color: whitesmoke;
+    font-weight: 10;
+    opacity: 70%;
+}
+
+.logogo {
+    max-width: 20vw;
+}
